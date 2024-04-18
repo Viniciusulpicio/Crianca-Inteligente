@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route Component={Header}/>
-        <Route Component={Home} path="/" exact />
+        <Route Component={Home} path="/Crianca-Inteligente" exact />
         <Route Component={ConteudoUniverso}/>
         
       </Routes>
