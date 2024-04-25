@@ -7,6 +7,7 @@ import videoHome from "../../img/videoHome.png"
 import planeta from "../../img/planeta.png"
 import planeta2 from "../../img/planeta2.png"
 import estrelaRosto from "../../img/estrelaRosto.png"
+import Vantagens from '../Vantagens/Vantagens'
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
 
     <ConteudoUniverso/>
     <Conteudo/>
+    <Vantagens/>
     </>
   )
 }
