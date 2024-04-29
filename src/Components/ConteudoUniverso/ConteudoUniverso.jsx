@@ -1,24 +1,24 @@
-import React from "react";
-import "../../Style.css";
+  import React from "react";
+  import "../../Style.css";
 
-$('.carroselItens').slick();
 
-const ConteudoUniverso = () => {
-  return (
-    <>
-      <div className="conteudoUniversoFundoAzul">
-        <div className="tituloConteudoUniverso">
-          <h1>
-            <span className="laranja"> FIQUE POR DENTRO DO NOSSO</span> UNIVERSO
-          </h1>
+
+  const ConteudoUniverso = () => {
+    return (
+      <>
+        <div className="conteudoUniversoFundoAzul">
+          <div className="tituloConteudoUniverso">
+            <h1>
+              <span className="laranja"> FIQUE POR DENTRO DO NOSSO</span> UNIVERSO
+            </h1>
+          </div>
+          <div className="fundoConteudoUniversoCarrosel">
+            <h2>Vídeos, músicas, brincadeiras E MUITO CONTEÚDO INTERATIVO</h2>
+            <div className="carrosselItens"></div>
+          </div>
         </div>
-        <div className="fundoConteudoUniversoCarrosel">
-          <h2>Vídeos, músicas, brincadeiras E MUITO CONTEÚDO INTERATIVO</h2>
-          <div className="carrosselItens"></div>
-        </div>
-      </div>
-    </>
-  );
-};
+      </>
+    );
+  };
 
-export default ConteudoUniverso;
+  export default ConteudoUniverso;

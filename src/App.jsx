@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header/Header.jsx";
 import Home from "./Components/Home/Home.jsx";
@@ -13,10 +11,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route Component={Header}/>
-        <Route Component={Home} path="/Crianca-Inteligente" exact />
-        <Route Component={ConteudoUniverso}/>
+        <Route Component={Home} path="/Crianca-Inteligente" exact/>
         <Route Component={Vantagens}/>
-        
+        <Route Component={ConteudoUniverso}/>
       </Routes>
     </BrowserRouter>
 
