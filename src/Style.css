@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Inter:wght@100..900&family=Silkscreen:wght@400;700&display=swap");
 
-* {
+*{
   padding: 0;
   margin: 0;
+}
+
+.pagina {
   font-family: "Baloo 2";
   background-image: url("../src/img/estrelas.png");
+  background-color: #112e6c;
 }
 
 /* Home */
 .conteudo {
   color: rgb(255, 255, 255);
-  background-color: #112e6c;
-  height: 100%;
   font-family: "Baloo 2";
 }
 
@@ -29,8 +31,6 @@
   border-radius: 5px;
   display: inline-block;
   padding: 6px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
 }
 
 .buttonDepoimento {
@@ -309,11 +309,31 @@
 
 /* Fim conteudo Universo */
 
+
 /* Page Vantagens */
 
-.pageVantagens{
-  height: 150vh;
-  border-radius: 50px;
+.planeta-tela{
+  margin-top: 25vh;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background-color: white;
+  height: 35vh;
 }
+
+.globo{
+  width: 85px;
+}
+
+.lua-tela{
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: white;
+  height: 35vh;
+}
+
+.lua{
+  width: 150px;
+}
+
 
 /* Fim page Vantagens */

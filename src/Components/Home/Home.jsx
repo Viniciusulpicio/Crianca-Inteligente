@@ -11,7 +11,7 @@ import Vantagens from '../Vantagens/Vantagens'
 
 const Home = () => {
   return (
-    <>
+    <div className="pagina">
     <Header/>
     <div className='conteudo'>
 
@@ -44,7 +44,7 @@ const Home = () => {
     <ConteudoUniverso/>
     <Conteudo/>
     <Vantagens/>
-    </>
+    </div>
   )
 }
 
