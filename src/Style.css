@@ -20,6 +20,8 @@
 .laranja {
   color: #fe675f;
   width: 2vw;
+  font-family: "Baloo 2";
+
 }
 
 .homeSpan {
@@ -313,11 +315,11 @@
 /* Page Vantagens */
 
 .planeta-tela{
-  margin-top: 25vh;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  background-color: white;
-  height: 35vh;
+  background-image: url("../src/img/eslipe-cortada_01.png");
+  margin-top: 15vh;
+  max-width: 100vw;
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 .globo{
@@ -325,15 +327,73 @@
 }
 
 .lua-tela{
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  background-color: white;
-  height: 35vh;
+  background-image: url("../src/img/eslipe-cortada_01.png");
+  max-width: 100vw;
+  height: 8vh;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  transform: rotateX(180deg);
+
 }
 
 .lua{
   width: 150px;
 }
 
+.container-vantagens{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.subtituloVantagens{
+  margin-bottom: 15vh;
+}
+
+.primeira,
+.secundaria{
+  display: flex;
+  justify-content: space-around;
+}
+
+.conteudoVantagens{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+
+
+.div-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  font-family: Helvetica, sans-serif;
+}
+
+.tituloVantagens{
+  font-size: 1.7vw;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Fim page Vantagens */
+
+
+/* Carrosel */
+
+.carroselItens{
+  width: 100%;
+}
+
+.slideItem{
+  height: 30vh;
+  width: 30vw;
+  object-fit: cover;
+}
+
+/* Fim do carrosel */
